@@ -1,0 +1,206 @@
+@media only screen and (min-width: 0px) and (max-width: 480px){
+    
+    #navbar{
+        /* flex-direction: column; */
+        width: auto;
+        height: auto;
+    }
+
+    .right-item{
+        width: 100%;
+        height: auto;
+        align-items: normal;
+    position: absolute;
+    top: 50px;
+    left: -34%;
+    width: 30%;
+    height: 325px;
+    background-color: white;
+    justify-content: center;
+    }
+
+    .right-item ul{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #profile{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin: 0px;
+      
+    }
+
+    .profile-photo{
+        margin-top: 20px;
+    }
+
+    
+
+    .names{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 13px;
+    }
+
+    .names h1{
+        font-size: 20px;
+    }
+    
+    .names h1 span{
+        font-size: 45px;
+    }
+
+    .name h3{
+        font-size: 19px;
+    }
+
+    .name h3 i{
+        font-size: 22px;
+    }
+
+    .name-section{
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+        height: auto;
+    }
+
+    .social-media{
+        width: 265px;
+        height: auto;
+    }
+
+    .info-section{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    
+    
+    .quotes{
+        width: auto;
+        height: auto;
+    }
+    .profile-photo img:hover + .personal-info{
+        left: -62px;
+        right: 0px;
+        z-index: 1;
+    }
+
+    .humburger-menu{
+        display: flex;
+    }
+
+    .close1{
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    #navbar{
+        /* flex-direction: column; */
+        width: auto;
+        height: auto;
+    }
+
+    .right-item{
+        width: auto;
+        height: auto;
+        align-items: normal;
+    position: absolute;
+    top: 50px;
+    left: -34%;
+    width: 30%;
+    height: 325px;
+    background-color: white;
+    justify-content: center;
+    }
+
+    .right-item ul{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    #profile{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin: 0px;
+      
+    }
+
+    .profile-photo{
+        margin-top: 20px;
+    }
+
+    
+
+    .names{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 13px;
+    }
+
+    .names h1{
+        font-size: 20px;
+    }
+    
+    .names h1 span{
+        font-size: 45px;
+    }
+
+    .name h3{
+        font-size: 19px;
+    }
+
+    .name h3 i{
+        font-size: 22px;
+    }
+
+    .name-section{
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+        height: auto;
+    }
+
+    .social-media{
+        width: 265px;
+        height: auto;
+    }
+
+    .info-section{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    
+    
+    .quotes{
+        width: auto;
+        height: auto;
+    }
+    .profile-photo img:hover + .personal-info{
+        left: -62px;
+        right: 0px;
+        z-index: 1;
+    }
+
+    .humburger-menu{
+        display: flex;
+    }
+
+    .close1{
+        display: flex;
+    }
+
+}

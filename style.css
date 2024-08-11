@@ -1,0 +1,494 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5dc3b;
+}
+
+#navbar{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: beige;
+    height: 4rem;
+}
+
+.left-item{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-item h3{
+    font-size: 25px;
+}
+
+.right-item{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.right-item ul{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35rem;
+    height: 3rem;
+}
+
+.right-item ul a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 4rem;
+    height: 2rem;
+}
+
+.right-item ul a li{
+    list-style: none;
+    font-size: 18px;
+    color: black;
+    transition: all ease-in-out .5s;
+    transform: scale(1);
+}
+
+
+
+.right-item ul a li:hover{
+    cursor: pointer;
+    color: red;
+    
+    transform: scale(1.2);
+}
+
+.right-item ul a li:active{
+    color: blue;
+}
+
+.right-item ul a li:focus{
+    color: green;
+}
+
+
+
+
+
+#profile{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+
+.name-section{
+    /* border: 1px solid black; */
+    
+    width: 30rem;
+    height: 25rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.names h1{
+    margin-bottom: 17px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
+.names h1 span{
+    margin-right: 14px;
+    color: red;
+    font-size: 70px;
+}
+
+.names h3{
+    margin-bottom: 10px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    font-size: 23px;
+}
+
+.names h3 i{
+    color: red;
+    font-size: 30px;
+}
+
+.bio-section{
+    padding: 12px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.profile-photo img{
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    width: 232px;
+    height: 250px;
+}
+
+.profile-photo img:hover{
+    cursor: pointer;
+}
+
+.social-media{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.social-media a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media svg{
+    width: 24px;
+    height: 30px;
+    transition: all ease-in-out .5s;
+}
+
+.social-media svg:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.download-cv{
+    /* border: 1px solid; */
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+}
+
+.download-cv a button{
+    width: 144px;
+    height: 41px;
+    border-radius: 20px;
+    border: none;
+    background: aquamarine;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all ease-in-out .5s;
+    
+}
+
+.download-cv a button:hover{
+    box-shadow: 0px 5px 15px 1px #4a6c6185;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.info-section{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quotes{
+    /* border: 1px solid; */
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    /* height: 10rem; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.quotes h1{
+    font-size: 30px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.quotes h1 span{
+    font-size: 40px;
+    margin-right: 2px;
+    color: red;
+}
+
+.quote-message{
+    padding: 20px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.education-section{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 290px;
+}
+
+.edu{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 270px;
+    height: 70px;
+}
+
+.edu span{
+    border: 1px solid darkred;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    width: 52px;
+    justify-content: center;
+    height: 52px;
+    position: relative;
+    box-shadow: 0px 1px 10px 3px #6633998c;
+    transition: all ease-in-out .5s;
+    
+}
+
+.ch-edu{
+    width: 250px;
+    transition: all ease-in-out .5s;
+}
+
+.ch-edu span:hover{
+    transform: scale(1.5);
+}
+
+
+
+.after-ele::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: #00000036;
+    transform: rotate(90deg);
+    top: 75px;
+    
+
+}
+
+.edu-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.marksheet{
+    border: 1px solid black;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 45px;
+    /* z-index: 1; */
+    transform: translate(3px, -185px);
+    transition: all ease-in-out .5s;
+}
+
+.profile-photo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.personal-info{
+        /* border: 1px solid black; */
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 13rem;
+        width: 0rem;
+        background: white;
+        color: black;
+        border-radius: 20px;
+        padding: 10px;
+        position: absolute;
+        /* left: 239px; */
+        right: 70px;
+        z-index: 1;
+        transition: all 5s ease-in-out;
+        box-shadow: -2px -2px 8px 1px gray;   
+    
+}
+
+.profile-photo img:hover + .personal-info{
+    display: flex;
+   right: 189px;
+   width: 22rem;
+    
+    /* cursor: pointer; */
+    
+
+}
+
+#projects-section{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    margin-top: 20px;
+    font-size: 22px;
+    flex-wrap: wrap;
+}
+
+.project-lists{
+    /* border: 1px solid black; */
+    padding: 10px;
+    position: relative;
+    background: forestgreen;
+    border-radius: 20px;
+    transition: .5s;
+
+
+}
+
+.project-lists span{
+    color: red;
+    font-size: 30px;
+
+}
+
+.project-info{
+    display: none;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    /* height: 52rem; */
+    text-align: center;
+    position: absolute;
+    top: 53px;
+    left: 30px;
+    width: 58rem;
+    background: #4CAF50;
+    border-radius: 35px;
+    padding: 10px;
+    box-shadow: -1px -2px 5px 0px darkgreen;
+   
+
+}
+
+.ch-project-info{
+    left: -410px;
+}
+.project-lists:hover{
+    cursor: pointer;
+    border: 0.5px solid black;
+    transition: .5s;
+    box-shadow: -1px -2px 5px 0px darkgreen;
+    
+    
+}
+
+.project-lists:hover > .project-info{
+    display: flex;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+.img-of-project img{
+    width: 210px;
+    height: 382px;
+}
+
+.info-about-project{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 17rem;
+    width: 36rem;
+        background-color: #00000059;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    
+    
+   
+}
+
+.info-about-project p{
+    letter-spacing: 2px;
+}
+
+.heading{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.heading h1 span{
+    color: red;
+    font-size: 80px;
+}
+
+.humburger-menu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8ff73;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all ease-in-out .5s;
+}
+
+.humburger-menu:hover{
+    box-shadow: 0px 0px 6px 0px gray;
+    
+}
+
+.humburger-menu svg{
+    width: 38px;
+    height: 30px;
+}
+
+.close1{
+    display: none;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: -10px;
+    top: -8px;
+}
+
+.close1 svg{
+    width: 26px;
+    height: 24px;
+}
+
+.close1 svg:hover{
+    color: blue;
+    cursor: pointer;
+}
+

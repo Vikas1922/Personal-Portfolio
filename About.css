@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.intro-section{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 19rem; */
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.intro-section h1{
+    font-size: 40px;
+}
+
+.intro-section h1 span{
+    font-size: 50px;
+    color: red;
+}
+
+.more-info{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 9rem; */
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h2 span{
+    font-size: 40px;
+    color: red;
+}
+
+.skill-part{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 9rem;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.skill-part ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+}
+
+/* ul li{
+    /* list-style: none; 
+} */
+
+.project-part{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 19rem; */
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.project-part ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    /* align-items: center; */
+    flex-direction: column;
+    padding-left: 21px;
+    /* height: 11rem; */
+}
+
+.hobbies-part{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* height: 9rem; */
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.hobbies-part ul{
+    display: flex;
+    
+    
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+}
+
+p,li{
+    font-size: 17px;
+}

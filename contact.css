@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: black; */
+    background-image: url('https://img.freepik.com/free-photo/vintage-pink-telephone-composition_23-2148913955.jpg?size=626&ext=jpg&ga=GA1.1.616935436.1723040768&semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: 91%;
+}
+
+.pop-up-form{
+    /* border: 1px solid; */
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    background: #00000057;;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 1px grey;
+    
+}
+
+
+.frm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 30rem;
+    width: 21rem;
+    padding: 20px;
+    /* background: #ffffff52; */
+}
+
+.form-category{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 5rem;
+}
+
+.m{
+    margin-bottom: 10px;
+}
+
+input{
+    height: 2rem;
+    font-size: 15px;
+    padding: 14px;
+    border-radius: 10px;
+    border: 0.5px solid grey;
+    background: #ffffff9c;
+    /* transition: all ease-in-out .5s; */
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+textarea{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0.5px solid grey;
+    background: #ffffff9c;
+    /* transition: all ease-in-out .5s; */
+}
+
+textarea:focus{
+    border: none;
+    outline: none;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+#btn{
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 17px;
+    background-color: #ff00009e;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: all ease-in-out .5s;
+}
+
+#btn:hover{
+    background-color: rgba(255, 0, 0, 0.925);
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px rgba(255, 0, 0, 0.808);
+}
+
+label{
+    font-size: 18px;
+    color: white;
+}
+
+.close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 8px;
+}
+
+.close svg{
+    height: 25px;
+    width: 35px;
+    transition: all ease-in-out .5s;
+}
+
+.close svg:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px){
+    body{
+        background-position-x: 91%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    body{
+        background-position-x: 91%;
+    }
+ }
+ @media only screen and (min-width: 769px) and (max-width: 1279px){
+    body{
+        background-position-x: 91%;
+    }
+ }

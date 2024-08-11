@@ -1,0 +1,118 @@
+@media only screen and (min-width: 0px) and (max-width: 480px){
+    .intro-section{
+        height: 50rem;
+    }
+
+    .more-info{
+        height: 18rem;
+    }
+
+    .skill-part{
+        height: 23rem;
+    }
+
+    .skill-part ul{
+        flex-direction: column;
+        align-items: normal;
+        padding-left: 21px;
+        height: 16rem;
+    }
+
+    .project-part{
+        height: 38rem;
+    }
+
+    .project-part ul{
+        height: 30rem;
+        flex-direction: column;
+        padding-left: 21px;
+    }
+
+    .hobbies-part{
+        height: 16rem;
+    }
+
+    .hobbies-part ul{
+        height: 9rem;
+        flex-direction: column;
+        align-items: normal;
+        padding-left: 21px;
+    }
+
+    .f-change{
+        font-size: 23px;
+    }
+
+    .f-span-change{
+        font-size: 35px;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .intro-section{
+        height: 50rem;
+    }
+
+    .more-info{
+        height: 18rem;
+    }
+
+    .skill-part{
+        height: 23rem;
+    }
+
+    .skill-part ul{
+        flex-direction: column;
+        align-items: normal;
+        padding-left: 21px;
+        height: 16rem;
+    }
+
+    .project-part{
+        height: 38rem;
+    }
+
+    .project-part ul{
+        height: 30rem;
+        flex-direction: column;
+        padding-left: 21px;
+    }
+
+    .hobbies-part{
+        height: 16rem;
+    }
+
+    .hobbies-part ul{
+        height: 9rem;
+        flex-direction: column;
+        align-items: normal;
+        padding-left: 21px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1279px){
+
+    .skill-part{
+        height: 23rem;
+    }
+
+    .skill-part ul{
+        flex-direction: column;
+        align-items: normal;
+        padding-left: 21px;
+        height: 16rem;
+    }
+
+    .hobbies-part{
+        height: 16rem;
+    }
+
+    .hobbies-part ul{
+        height: 9rem;
+        flex-direction: column;
+        align-items: normal;
+        padding-left: 21px;
+    }
+}
