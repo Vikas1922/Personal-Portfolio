@@ -92,6 +92,9 @@
         z-index: 1;
     }
 
+    .edu-info{
+        margin-left: 10px;
+    }
     .humburger-menu{
         display: flex;
     }
